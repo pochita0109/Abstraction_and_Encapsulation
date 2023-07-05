@@ -10,4 +10,9 @@ FAN PROGRAM
 CAR PROGRAM
 - This program has a car object with three attributes which are year, make, and speed. It also has a method by which the car will accelerate by 5 each time you call accelerate method and decelerate by 5 each time you call brake. The result will look like this:
 ![image](https://github.com/pochita0109/Abstraction_and_Encapsulation/assets/129735606/01f82281-2c65-427c-a112-9bdd691c0380)
-  
+
+PET PROGRAM
+- This program has a pet object with three attributes, which are name, type, and age. In this program, the user will be asked to enter '
+their pet's name, type, and age. After entering it, the program will show the result like this:
+![image](https://github.com/pochita0109/Abstraction_and_Encapsulation/assets/129735606/1c27cc8d-c2f7-4791-bdfc-9d29ecac5589)
+
