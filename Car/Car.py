@@ -27,8 +27,14 @@ class Car:
 # Set the make of Car
     def set_make(self, make):
         self.__make = make
-        
+
 # Create a get speed method
+    def get_speed(self):
+        return self.__speed
+    
 # Set the speed of Car
+    def set_speed(self, speed):
+        self._speed = speed
+        
 # Create an accelerate method
 # Create a brake method
