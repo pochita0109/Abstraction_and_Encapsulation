@@ -13,13 +13,19 @@ class Fan:
     def __init__(self, speed = SLOW, on = False, radius = 5, color = "blue"):
      
 # Create a private instance variable 
-     self.__speed = speed
-     self.__on = on
-     self.__radius = radius
-     self.__color = color
+        self.__speed = speed
+        self.__on = on
+        self.__radius = radius
+        self.__color = color
 
 # Create an accessor (Getter) for speed
+    def get_speed(self):
+        return self.__speed
+    
 # Create a mutator (Setter) for speed
+    def set_speed(self, speed):
+        self.__speed = speed
+        
 # Create an accessor (Getter) for switch
 # Create a mutator (Setter) for switch
 # Create an accessor (Getter) for radius
