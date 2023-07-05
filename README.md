@@ -1,7 +1,7 @@
-ABSTRACTION AND ENCAPSULATION
+# ABSTRACTION AND ENCAPSULATION
 
 - This project used Object-Oriented Programming and applied two of the four pillars of OOP, which are abstraction and encapsulation.
-For this project, it has three (3) programs, one for a fan, one for a car, and one for a pet. Each program has separate folders and the files are located inside of it.
+For this project, it has three (3) programs, one for a fan, one for a car, and one for a pet. Each program has separate folders and the files are located inside of it. All of the programs have private instance variables, as it is one of the principles of encapsulation.
 
 FAN PROGRAM
 - This program has a fan object embedded with four different attributes: speed, switch, radius, and color. by entering the values needed, the result will look like the picture below:
@@ -16,3 +16,5 @@ PET PROGRAM
 their pet's name, type, and age. After entering it, the program will show the result like this:
 ![image](https://github.com/pochita0109/Abstraction_and_Encapsulation/assets/129735606/1c27cc8d-c2f7-4791-bdfc-9d29ecac5589)
 
+The demonstration video of these programs is located here:
+https://drive.google.com/file/d/1tx1tTIkNV8NQsKW4VxXU41HTtsJhmwtW/view?usp=sharing
