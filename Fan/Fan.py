@@ -25,9 +25,18 @@ class Fan:
 # Create a mutator (Setter) for speed
     def set_speed(self, speed):
         self.__speed = speed
-        
+
 # Create an accessor (Getter) for switch
+    def get_switch(self):
+        if self.__on == True:
+            return "ON"
+        else:
+            return "OFF"
+
 # Create a mutator (Setter) for switch
+    def set_switch(self, on):
+        self.__on = on
+    
 # Create an accessor (Getter) for radius
 # Create a mutator (Setter) for radius
 # Create an accessor (Getter) for color
