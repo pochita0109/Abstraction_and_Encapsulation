@@ -21,8 +21,14 @@ class Car:
         self.__year = year
 
 # Get the make of Car
+    def get_make(self):
+        return self.__make
+    
 # Set the make of Car
+    def set_make(self, make):
+        self.__make = make
+        
+# Create a get speed method
 # Set the speed of Car
 # Create an accelerate method
 # Create a brake method
-# Create a get speed method
