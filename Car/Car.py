@@ -13,7 +13,13 @@ class Car:
         self.__speed = speed
 
 # Get the year of Car
+    def get_year(self):
+        return self.__year
+    
 # Set the year of Car
+    def set_year(self, year):
+        self.__year = year
+
 # Get the make of Car
 # Set the make of Car
 # Set the speed of Car
