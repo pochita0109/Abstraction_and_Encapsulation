@@ -7,8 +7,9 @@ class TestCar:
 # Create a car object
      car = Car(2023, "Honda", 0)
 
+# Print the result
 # Accelerate
-   # First call
+    # First call
      car.accelerate()
      print(car.get_speed())
     
@@ -29,7 +30,25 @@ class TestCar:
      print(car.get_speed())   
 
 # Brake
-# Print the result
+    # First call
+     car.brake()
+     print(car.get_speed())
+
+     # Second call
+     car.brake()
+     print(car.get_speed())
+
+     # Third call
+     car.brake()
+     print(car.get_speed())
+
+     # Fourth call
+     car.brake()
+     print(car.get_speed())
+
+     # Fifth call
+     car.brake()
+     print(car.get_speed())
 
 run = TestCar()
 run.Test_car()
